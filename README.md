@@ -6,13 +6,11 @@ v1.x | Designed & Coded with 💎 by Dr. Ronald Joe Record <br>
 This custom theme is designed for use with the [Obsidian](https://obsidian.md/)
 notes application.
 
-  <p align="center">
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  </p>
-
 **[CHANGES](https://github.com/doctorfree/Obsidian-Doctorfree/blob/main/CHANGELOG.md)** | **[OBSIDIAN FORUM](https://forum.obsidian.md/)** | **[USAGE](#usage)**
 
 </div>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <img src="./screenshot.png"><br />
 
