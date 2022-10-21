@@ -450,7 +450,7 @@ thead {
   color: var(--text-accent) !important;
 }
 .graph-view.color-text {
-  color: var(--text-normal) !important;
+  color: #00ffff;
 }
 .graph-view.color-line {
   color: #6272a4;

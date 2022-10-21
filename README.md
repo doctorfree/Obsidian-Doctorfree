@@ -16,6 +16,8 @@ notes application.
 
 <img src="./screenshot.png"><br />
 
+<img src="./graph-view.png"><br />
+
 ## Usage
 
 ```
