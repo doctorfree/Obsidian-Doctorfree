@@ -1,6 +1,6 @@
 <h1 align="center">Obsidian Theme: Doctorfree</h1>
 
-⚡ Inspired by the [Night Owl theme](https://github.com/bencodezen/obsidian-night-owl-theme) by [Ben Hong](https://twitter.com/bencodezen).
+⚡ Inspired by the [Night Owl theme](https://github.com/bencodezen/obsidian-night-owl-theme) by [Ben Hong](https://twitter.com/bencodezen) and the [Obsidianite theme](https://github.com/bennyxguo/Obsidian-Obsidianite) by [Benny Guo](https://twitter.com/bennyxguo).
 
 <div align="center">
 
@@ -135,4 +135,4 @@ Public License v3.0.
 
 ## Credit
 
-🎩 Hat tip to the [Night Owl Obsidian Theme](https://github.com/bencodezen/obsidian-night-owl-theme) for serving as the base theme I used to create this theme.
+🎩 Hat tip to the [Night Owl theme](https://github.com/bencodezen/obsidian-night-owl-theme) and the [Obsidianite theme](https://github.com/bennyxguo/Obsidian-Obsidianite) for serving as the base themes I used to create this theme.
