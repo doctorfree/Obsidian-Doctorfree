@@ -16,9 +16,9 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 <img src="./graph-view.png"><br />
 
-## 📥 Installation
+## Installation
 
-### Obsidian Marketplace (Recommended)
+### Obsidian Marketplace (Coming soon)
 
 1. Open the **Settings** in Obsidian
 1. Navigate to **Appearances** tab under **Options**
@@ -39,7 +39,7 @@ cp doctorfree.css .../.obsidian/themes/Doctorfree/theme.css
 1. Under the **Themes** section, click on the dropdown menu next to **Theme** heading
 1. Select for `Doctorfree` and then you're done! 🎉'
 
-### 👩‍💻 Local Dev Environment
+### Local Dev Environment
 
 This is for people who want to clone the repo and work with the file locally.
 
