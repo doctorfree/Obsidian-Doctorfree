@@ -670,7 +670,11 @@ code {
   transition: transform 100ms ease-in-out;
   padding: 0px !important;
 }
-body {
+body{
+  --font-ui-smaller: 14px;
+  --font-ui-small: 16px;
+  --font-ui-medium: 18px;
+  --font-ui-large: 20px;
   font-size: var(--font-size-normal);
 }
 .nav-file-title,
