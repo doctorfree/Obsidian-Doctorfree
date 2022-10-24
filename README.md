@@ -48,7 +48,8 @@ This is for people who want to clone the repo and work with the file locally.
 2. Install dependencies (`npm install`)
 3. Create `.env` with a file path to where your theme directory lives
     - Use `.env-sample` to see the format.
-4. Run `npm start`
+4. Run `npm run setup`
+5. Run `npm start`
 
 All changes made to SCSS files will automatically be migrated into your Obsidian environment.
 
