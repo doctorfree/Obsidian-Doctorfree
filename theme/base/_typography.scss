@@ -16,19 +16,3 @@
   width: max-content;
   min-width: 100%;
 }
-
-.markdown-source-view.mod-cm6 .is-unresolved {
-  opacity: 1;
-}
-.markdown-source-view.mod-cm6 .is-unresolved .cm-hmd-internal-link::after {
-  content: "↩️";
-  width: 30px;
-  height: 30px;
-  margin-left: 3px;
-  font-size: 0.8rem;
-  opacity: 0.5;
-}
-.statediagram-note rect {
-  fill: var(--background-secondary-alt) !important;
-  stroke: #fff !important;
-}
