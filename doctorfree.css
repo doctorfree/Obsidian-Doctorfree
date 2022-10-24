@@ -299,17 +299,13 @@ body .markdown-preview-section div {
   color: var(--text-accent);
 }
 
+/** File and Folder Lists **/
 body:not(.is-grabbing) .nav-file-title:hover,
 body:not(.is-grabbing) .nav-folder-title:hover {
   border: 1px solid var(--interactive-accent-hover);
-}
-
-/** Folder Lists **/
-body:not(.is-grabbing) .nav-file-title:hover,
-body:not(.is-grabbing) .nav-folder-title:hover {
   color: var(--text-accent);
 }
-/** Folder list active arrow **/
+/** File and Folder list active arrow **/
 body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
 body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   color: var(--text-accent);
@@ -362,10 +358,6 @@ span.cm-formatting-list,
   height: 1px !important;
   background-color: var(--border-color);
 }
-/*workspace ribbon when collapsed*/
-.workspace-ribbon.is-collapsed {
-  background-color: var(--background-primary-alt);
-}
 /*the vertical split*/
 .workspace-split.mod-root .workspace-split.mod-vertical .workspace-leaf-content,
 .workspace-split.mod-vertical > .workspace-split,
@@ -402,12 +394,6 @@ span.cm-formatting-list,
   border-top: 0px;
   border-right: 0px;
   z-index: inherit;
-}
-.workspace-ribbon.mod-left.is-collapsed {
-  border-right: 1px solid var(--border-color);
-}
-.workspace-ribbon.mod-right.is-collapsed {
-  border-left: 1px solid var(--border-color);
 }
 /*************************************/
 /*                tags               */
@@ -1076,8 +1062,6 @@ ul ul::before {
   content: "";
   border-left: 1px solid var(--border-color);
   position: absolute;
-}
-ul ul::before {
   left: -1em;
   top: 0;
   bottom: 0;
@@ -1214,36 +1198,34 @@ ul .task-list-item ul::before {
 .view-action {
   color: var(--text-faint);
 }
-.cm-header-1,
-.cm-header-2,
-.cm-header-3,
-.cm-header-4,
-.cm-header-5,
-.cm-header-6 {
-  font-weight: 500;
-}
 .cm-header-1 {
   font-size: var(--font-size-h1);
+  font-weight: 500;
   color: var(--text-title-h1);
 }
 .cm-header-2 {
   font-size: var(--font-size-h2);
+  font-weight: 500;
   color: var(--text-title-h2);
 }
 .cm-header-3 {
   font-size: var(--font-size-h3);
+  font-weight: 500;
   color: var(--text-title-h3);
 }
 .cm-header-4 {
   font-size: var(--font-size-h4);
+  font-weight: 500;
   color: var(--text-title-h4);
 }
 .cm-header-5 {
   font-size: var(--font-size-h5);
+  font-weight: 500;
   color: var(--text-title-h5);
 }
 .cm-header-6 {
   font-size: var(--font-size-h6);
+  font-weight: 500;
   color: var(--text-title-h6);
 }
 
