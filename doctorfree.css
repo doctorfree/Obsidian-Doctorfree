@@ -909,6 +909,22 @@ thead {
 .graph-view.color-fill {
   color: var(--text-muted);
 }
+.theme-light .graph-view.color-arrow,
+.theme-dark .graph-view.color-arrow {
+  color: #50fa7b;
+}
+.theme-light .graph-view.color-fill-tag,
+.theme-dark .graph-view.color-fill-tag {
+  color: #ffb86c;
+}
+.theme-light .graph-view.color-fill-attachment,
+.theme-dark .graph-view.color-fill-attachment {
+  color: #ff5555;
+}
+.theme-light .graph-view.color-fill-unresolved,
+.theme-dark .graph-view.color-fill-unresolved {
+  color: #6272a4;
+}
 .workspace-leaf-content[data-type=graph] .view-content {
   background-color: var(--background-primary);
 }
@@ -1079,19 +1095,6 @@ ul ul::before {
 code {
   color: var(--inline-code) !important;
   bottom: 0px !important;
-}
-/* graph css  */
-.theme-dark .graph-view.color-arrow {
-  color: #50fa7b;
-}
-.theme-dark .graph-view.color-fill-tag {
-  color: #ffb86c;
-}
-.theme-dark .graph-view.color-fill-attachment {
-  color: #ff5555;
-}
-.theme-dark .graph-view.color-fill-unresolved {
-  color: #6272a4;
 }
 .search-result-collapse-indicator {
   position: absolute;
