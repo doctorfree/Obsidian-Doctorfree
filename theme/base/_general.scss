@@ -104,13 +104,6 @@ body {
   font-size: var(--font-size-normal);
 }
 
-body [role='presentation'] pre,
-body [role='presentation'] div,
-body .markdown-preview-section div {
-  font-weight: var(--body-font-weight, normal);
-  font-size: var(--font-size-normal) !important;
-}
-
 ::-webkit-scrollbar {
   opacity: 1;
   width: 0.6rem;

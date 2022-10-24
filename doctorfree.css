@@ -225,13 +225,6 @@ body {
   font-size: var(--font-size-normal);
 }
 
-body [role='presentation'] pre,
-body [role='presentation'] div,
-body .markdown-preview-section div {
-  font-weight: var(--body-font-weight, normal);
-  font-size: var(--font-size-normal) !important;
-}
-
 ::-webkit-scrollbar {
   opacity: 1;
   width: 0.6rem;
@@ -1195,34 +1188,36 @@ ul .task-list-item ul::before {
 .view-action {
   color: var(--text-faint);
 }
+.cm-header-1,
+.cm-header-2,
+.cm-header-3,
+.cm-header-4,
+.cm-header-5,
+.cm-header-6 {
+  font-weight: 500;
+}
 .cm-header-1 {
   font-size: var(--font-size-h1);
-  font-weight: 500;
   color: var(--text-title-h1);
 }
 .cm-header-2 {
   font-size: var(--font-size-h2);
-  font-weight: 500;
   color: var(--text-title-h2);
 }
 .cm-header-3 {
   font-size: var(--font-size-h3);
-  font-weight: 500;
   color: var(--text-title-h3);
 }
 .cm-header-4 {
   font-size: var(--font-size-h4);
-  font-weight: 500;
   color: var(--text-title-h4);
 }
 .cm-header-5 {
   font-size: var(--font-size-h5);
-  font-weight: 500;
   color: var(--text-title-h5);
 }
 .cm-header-6 {
   font-size: var(--font-size-h6);
-  font-weight: 500;
   color: var(--text-title-h6);
 }
 
