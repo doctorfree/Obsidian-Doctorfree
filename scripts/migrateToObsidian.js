@@ -5,6 +5,6 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 fse
-  .copy('./dist/obsidian.css', process.env.DESTINATION)
+  .copy('./dist/doctorfree.css', process.env.DESTINATION)
   .then(() => console.log('🚚 CSS file copied successfully!'))
   .catch(error => console.error(error))

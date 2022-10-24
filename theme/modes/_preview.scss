@@ -1,32 +1,61 @@
-$headingList: h1, h2, h3, h4, h5, h6;
-
-@each $heading in $headingList {
-  .markdown-preview-view #{$heading} {
-    font-family: var(--font-family-preview-heading);
-    font-size: var(--font-size-#{$heading});
-    color: var(--text-title-#{$heading});
-  }
+/** Headings */
+.markdown-preview-view h1 {
+  font-family: var(--font-family-preview-heading);
+  font-size: var(--font-size-h1);
+  font-weight: 900;
+  color: var(--text-title-h1);
 }
-
-.markdown-preview-view {
-  h1 {
-    font-weight: 900;
-  }
-
-  h2 {
-    font-weight: 800;
-  }
-
-  h3 {
-    font-weight: 700;
-  }
-
-  h4 {
-    font-weight: 600;
-  }
-
-  h5,
-  h6 {
-    font-weight: 500;
-  }
+.markdown-preview-view h2 {
+  /* padding-top: 1.25rem; */
+  margin: 45px 0 20px 0;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-width: 35%;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, var(--text-sub-accent), #100e17, #100e17, #100e17);
+  font-family: var(--font-family-preview-heading);
+  font-size: var(--font-size-h2);
+  font-weight: 800;
+  color: var(--text-title-h2);
+}
+.markdown-preview-view h3 {
+  /* padding-top: 1.25rem; */
+  margin: 45px 0 20px 0;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-width: 35%;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, var(--text-sub-accent), #100e17, #100e17, #100e17);
+  font-family: var(--font-family-preview-heading);
+  font-size: var(--font-size-h3);
+  font-weight: 700;
+  color: var(--text-title-h3);
+}
+.markdown-preview-view h4 {
+  /* padding-top: 1.25rem; */
+  margin: 45px 0 20px 0;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+  border-width: 35%;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, var(--text-sub-accent), #100e17, #100e17, #100e17);
+  font-family: var(--font-family-preview-heading);
+  font-size: var(--font-size-h4);
+  font-weight: 600;
+  color: var(--text-title-h4);
+}
+.markdown-preview-view h5 {
+  font-family: var(--font-family-preview-heading);
+  font-size: var(--font-size-h5);
+  font-weight: 500;
+  color: var(--text-title-h5);
+}
+.markdown-preview-view h6 {
+  font-family: var(--font-family-preview-heading);
+  font-size: var(--font-size-h6);
+  font-weight: 500;
+  color: var(--text-title-h6);
 }

@@ -60,6 +60,10 @@ settings:
   --font-size-h4: 20px;
   --font-size-h5: 19px;
   --font-size-h6: 18px;
+  --font-ui-smaller: 14px;
+  --font-ui-small: 16px;
+  --font-ui-medium: 18px;
+  --font-ui-large: 20px;
   --font-family-editor: IBM Plex Mono, Menlo, Monaco, Courier New, monospace;
   --font-text: Karla, Avenir Next, Helvetica, Arial, sans-serif;
   --font-family-preview: Karla, Avenir Next, Helvetica, Arial, sans-serif;
@@ -218,14 +222,14 @@ a.tag[href*='#想法'] {
 /**************************************/
 body {
   font-weight: var(--body-font-weight, normal);
-  font-size: var(--default-font-size, 16px);
+  font-size: var(--font-size-normal);
 }
 
 body [role='presentation'] pre,
 body [role='presentation'] div,
 body .markdown-preview-section div {
   font-weight: var(--body-font-weight, normal);
-  font-size: var(--default-font-size, 16px) !important;
+  font-size: var(--font-size-normal) !important;
 }
 
 ::-webkit-scrollbar {
@@ -1102,13 +1106,6 @@ code {
   color: var(--text-faint);
   transition: transform 100ms ease-in-out;
   padding: 0px !important;
-}
-body{
-  --font-ui-smaller: 14px;
-  --font-ui-small: 16px;
-  --font-ui-medium: 18px;
-  --font-ui-large: 20px;
-  font-size: var(--font-size-normal);
 }
 .nav-file-title,
 .nav-folder-title {

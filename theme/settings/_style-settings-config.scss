@@ -1,7 +1,7 @@
 /* @settings
 
 name: Doctorfree Theme
-id: doctorfree
+id: doctorfree-theme
 settings:
     -
         id: doctorfree-typography
@@ -13,17 +13,17 @@ settings:
         title: Bold Color
         type: variable-color
         format: hex
-        default: '#{$primaryLightGreen}'
+        default: '#50fa7b'
     -
         id: text-italic-color
         title: Italic Color
         type: variable-color
         format: hex
-        default: '#{$primaryYellow}'
+        default: '#ffeb95'
     -
         id: text-italic-bold-color
         title: Italic Bold Color
         type: variable-color
         format: hex
-        default: '#{$primaryLavender}'
+        default: '#b380fb'
 */

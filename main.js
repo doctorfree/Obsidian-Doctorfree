@@ -1,1 +1,1 @@
-import './theme/obsidian.scss'
+import './theme/doctorfree.scss'

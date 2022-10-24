@@ -1,73 +1,73 @@
 /*-------------------------------------*/
 /*          CSS Variables              */
 /*-------------------------------------*/
-
 :root {
   --font-size-normal: 18px;
-  --font-size-code: 15px;
-  --font-size-side-dock: 15px;
+  --font-size-code: 18px;
+  --font-size-side-dock: 18px;
   --font-size-side-dock-title: 18px;
-  --font-size-status-bar: 15px;
+  --font-size-status-bar: 18px;
   --font-size-h1: 30px;
   --font-size-h2: 25px;
   --font-size-h3: 21px;
   --font-size-h4: 20px;
   --font-size-h5: 19px;
   --font-size-h6: 18px;
-  --font-family-editor: #{$editorFont};
-  --font-text: #{$previewFontBody};
-  --font-family-preview: #{$previewFontBody};
-  --font-family-preview-heading: #{$previewFontHeading};
-  --primary-lavender: #{$primaryLavender};
+  --font-ui-smaller: 14px;
+  --font-ui-small: 16px;
+  --font-ui-medium: 18px;
+  --font-ui-large: 20px;
+  --font-family-editor: IBM Plex Mono, Menlo, Monaco, Courier New, monospace;
+  --font-text: Karla, Avenir Next, Helvetica, Arial, sans-serif;
+  --font-family-preview: Karla, Avenir Next, Helvetica, Arial, sans-serif;
+  --font-family-preview-heading: Rubik, Avenir Next, Helvetica, Arial, sans-serif;
+  --primary-lavender: #b380fb;
 }
-
 .theme-light,
 .theme-dark {
-  --background-primary: #{$primaryDarkBlue};
-  --background-primary-alt: #{lighten($primaryDarkBlue, 2%)};
-  --background-secondary: #{lighten($primaryDarkBlue, 2%)};
-  --background-secondary-alt: #{lighten($primaryDarkBlue, 4%)};
+  --background-primary: hsl(207deg, 95%, 8%);
+  --background-primary-alt: #011c32;
+  --background-secondary: #011c32;
+  --background-secondary-alt: #02223c;
   --background-accent: #f8f8f2;
   --background-modifier-border: #f8f8f2;
-  --background-modifier-form-field: rgba(0, 0, 0, 0.2);
-  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.5);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-  --background-modifier-success: #{$primaryLightGreen}; /*no sure*/
-  --background-modifier-error: #3d0000; /*no sure*/
+  --background-modifier-success: #50fa7b; /*not sure*/
+  --background-modifier-error: #3d0000; /*not sure*/
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
-  --text-accent: #{$primaryYellow};
+  --text-accent: #ffeb95;
   --text-accent-hover: #8be9fd;
-  --text-bold-color: #{$primaryLightGreen};
-  --text-italic-color: #{$primaryYellow};
-  --text-italic-bold-color: #{$primaryLavender};
+  --text-sub-accent: #f4569d;
+  --text-bold-color: #50fa7b;
+  --text-italic-color: #ffeb95;
+  --text-italic-bold-color: #b380fb;
   --text-normal: #f8f8f2;
   --text-muted: #f8f8f2;
-  --text-faint: #{$primaryTeal};
-  --text-highlight-bg: #{$primaryHighlight};
+  --text-faint: #7fdbca;
+  --text-highlight-bg: hsla(61deg, 100%, 32%, 0.8);
   --text-error: #ff79c6;
   --text-error-hover: #ff79c6;
-  --text-selection: #6272a4; /* Chromium precess this color with alpha channel */
+  --text-selection: #6272a4; /* Chromium process this color with alpha channel */
   --text-on-accent: #bd93f9;
-  --interactive-normal: #ffb86c;
-  --interactive-hover: #ff5555;
-  --interactive-accent: #{$primaryYellow};
-  --interactive-accent-rgb: 123, 108, 217;
-  --interactive-accent-hover: #ff5555;
+  --interactive-accent: rgba(14, 210, 247, 0.5);
+  --interactive-accent-hover: rgba(14, 210, 247, 0.8);
+  --interactive-before: #5e6565;
+  --interactive-accent-rgb: #3dd7fb;
   --scrollbar-active-thumb-bg: #282a36;
   --scrollbar-bg: #282a36;
   --scrollbar-thumb-bg: #282a36;
   --text-title-h1: #ff79c6;
-  --text-title-h2: #{$primaryLightBlue};
-  --text-title-h3: #{$primaryLimeGreen};
+  --text-title-h2: #82aaff;
+  --text-title-h3: #c5e478;
   --text-title-h4: #ffb86c;
-  --text-title-h5: #{$primaryLightGreen};
+  --text-title-h5: #50fa7b;
   --text-title-h6: #8be9fd;
   --inline-code: #bd93f9;
   --code-block: #8be9fd;
   --pre-code: #44475a;
   --blockquote-border: #ffb86c;
   --vim-cursor: #ff5555;
-  --border-color: #2b2727; /*also like transparent*/
+  --border-color: #2b2727; /* also like transparent */
 }

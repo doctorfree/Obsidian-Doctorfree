@@ -7,7 +7,7 @@ module.exports = {
       output: {
         assetFileNames: assetInfo => {
           if (assetInfo.name == 'style.css') {
-            return 'obsidian.css'
+            return 'doctorfree.css'
           } else {
             return '[name].[ext]'
           }
@@ -15,7 +15,7 @@ module.exports = {
       }
     },
     lib: {
-      entry: path.resolve(__dirname, 'theme/obsidian.scss'),
+      entry: path.resolve(__dirname, 'theme/doctorfree.scss'),
       filename: 'doctorfree',
       name: 'Doctorfree'
     }
