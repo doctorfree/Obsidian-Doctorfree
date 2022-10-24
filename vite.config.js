@@ -17,7 +17,7 @@ module.exports = {
     lib: {
       entry: path.resolve(__dirname, 'theme/doctorfree.scss'),
       filename: 'doctorfree',
-      name: 'Doctorfree'
+      name: 'doctorfree'
     }
   }
 }

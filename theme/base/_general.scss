@@ -36,8 +36,8 @@
 /**************************/
 
 /* For preview mode */
-a.tag[href*='#todo'],
-a.tag[href*='#待完成'] {
+a.tag[href*="#todo"],
+a.tag[href*="#待完成"] {
   background-color: #be2e5e;
   color: #fff;
 }
@@ -46,8 +46,8 @@ a.tag[href*='#待完成'] {
   color: #ee6a96;
 }
 
-a.tag[href*='#working-draft'],
-a.tag[href*='#进行中'] {
+a.tag[href*="#working-draft"],
+a.tag[href*="#进行中"] {
   background-color: #4d3ca6;
   color: #fff;
 }
@@ -56,8 +56,8 @@ a.tag[href*='#进行中'] {
   color: #a897ff;
 }
 
-a.tag[href*='#notes'],
-a.tag[href*='#笔记'] {
+a.tag[href*="#notes"],
+a.tag[href*="#笔记"] {
   background-color: #17b978;
   color: #fff;
 }
@@ -66,8 +66,8 @@ a.tag[href*='#笔记'] {
   color: #45e0a2;
 }
 
-a.tag[href*='#knowledge'],
-a.tag[href*='#知识'] {
+a.tag[href*="#knowledge"],
+a.tag[href*="#知识"] {
   background-color: #005792;
   color: #fff;
 }
@@ -76,8 +76,8 @@ a.tag[href*='#知识'] {
   color: #6cbdf3;
 }
 
-a.tag[href*='#writing'],
-a.tag[href*='#文章'] {
+a.tag[href*="#writing"],
+a.tag[href*="#文章"] {
   background-color: #f95959;
   color: #fff;
 }
@@ -86,8 +86,8 @@ a.tag[href*='#文章'] {
   color: #ff7a7a;
 }
 
-a.tag[href*='#ideas'],
-a.tag[href*='#想法'] {
+a.tag[href*="#ideas"],
+a.tag[href*="#想法"] {
   background-color: #ffc93c;
   color: #000;
 }
@@ -213,9 +213,11 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 }
 
 /* except list markers */
+/* code block backticks */
+/* optionally header hashes */
 span.cm-formatting-list,
-/*code block backticks */ span.cm-formatting-code-block.cm-hmd-codeblock,
-/* optionally header hashes */ span.cm-formatting-header {
+span.cm-formatting-code-block.cm-hmd-codeblock,
+span.cm-formatting-header {
   display: inline !important;
 }
 
