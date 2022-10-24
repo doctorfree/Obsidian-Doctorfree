@@ -503,7 +503,7 @@ s,
 
 .cm-line hr::after,
 .markdown-preview-view hr::after {
-  content: '§';
+  content: "§";
   display: inline-block;
   position: absolute;
   left: 50%;
@@ -560,7 +560,7 @@ pre code {
 /***************************************/
 /*      Language (Dark mode only)      */
 /***************************************/
-pre[class*='language-']:before {
+pre[class*=language-]:before {
   font-family: Rubik, Lato, Lucida Grande, Lucida Sans Unicode, Tahoma, Sans-Serif;
   font-style: normal;
   font-weight: 700;
@@ -571,7 +571,7 @@ pre[class*='language-']:before {
   right: 0.3rem;
   padding: 0;
   color: var(--text-accent) !important;
-  content: '';
+  content: "";
   text-transform: uppercase;
   background: rgba(16, 14, 23, 0.86);
   border-radius: 8px;
@@ -579,69 +579,68 @@ pre[class*='language-']:before {
   z-index: 10;
 }
 
-pre[class$='markdown']:before,
-pre[class$='md']:before {
-  content: 'Markdown';
+pre[class$=markdown]:before,
+pre[class$=md]:before {
+  content: "Markdown";
 }
 
-pre[class$='javascript']:before,
-pre[class$='js']:before {
-  content: 'JavaScript';
+pre[class$=javascript]:before,
+pre[class$=js]:before {
+  content: "JavaScript";
 }
 
-pre[class$='typescript']:before,
-pre[class$='ts']:before {
-  content: 'typescript';
+pre[class$=typescript]:before,
+pre[class$=ts]:before {
+  content: "typescript";
 }
 
-pre[class$='text']:before {
-  content: 'text';
+pre[class$=text]:before {
+  content: "text";
 }
 
-pre[class$='html']:before {
-  content: 'html';
+pre[class$=html]:before {
+  content: "html";
 }
 
-pre[class$='css']:before {
-  content: 'css';
+pre[class$=css]:before {
+  content: "css";
 }
 
-pre[class$='ejs']:before {
-  content: 'ejs';
+pre[class$=ejs]:before {
+  content: "ejs";
 }
 
-pre[class$='vue']:before {
-  content: 'vue';
+pre[class$=vue]:before {
+  content: "vue";
 }
 
-pre[class$='react']:before {
-  content: 'react';
+pre[class$=react]:before {
+  content: "react";
 }
 
-pre[class$='shell']:before {
-  content: 'Shell';
+pre[class$=shell]:before {
+  content: "Shell";
 }
 
-pre[class$='json']:before {
-  content: 'Json';
+pre[class$=json]:before {
+  content: "Json";
 }
 
-pre[class$='python']:before {
-  content: 'python';
+pre[class$=python]:before {
+  content: "python";
 }
 
-.theme-dark :not(pre) > code[class*='language-'],
-.theme-dark pre[class*='language-'] {
+.theme-dark :not(pre) > code[class*=language-],
+.theme-dark pre[class*=language-] {
   background-color: var(--background-secondary);
 }
 
-code[class*='language-'],
-pre[class*='language-'] {
+code[class*=language-],
+pre[class*=language-] {
   color: #ccc;
   background: rgb(40, 41, 54);
   text-shadow: none;
-  font-family: 'OperatorMonoSSmLig-Book', PT Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
-    monospace !important;
+  font-family: "OperatorMonoSSmLig-Book", PT Mono, Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -659,37 +658,37 @@ pre[class*='language-'] {
   hyphens: none;
 }
 
-pre[class*='language-']::-moz-selection,
-pre[class*='language-'] ::-moz-selection,
-code[class*='language-']::-moz-selection,
-code[class*='language-'] ::-moz-selection {
+pre[class*=language-]::-moz-selection,
+pre[class*=language-] ::-moz-selection,
+code[class*=language-]::-moz-selection,
+code[class*=language-] ::-moz-selection {
   text-shadow: none;
   background-color: #5a5f80;
 }
 
-pre[class*='language-']::selection,
-pre[class*='language-'] ::selection,
-code[class*='language-']::selection,
-code[class*='language-'] ::selection {
+pre[class*=language-]::selection,
+pre[class*=language-] ::selection,
+code[class*=language-]::selection,
+code[class*=language-] ::selection {
   text-shadow: none;
   background-color: #5a5f80;
 }
 
 @media print {
-  code[class*='language-'],
-  pre[class*='language-'] {
+  code[class*=language-],
+  pre[class*=language-] {
     text-shadow: none;
   }
 }
 
 /* Code blocks */
-:not(pre) > code[class*='language-'],
-pre[class*='language-'] {
-  background: rgba(40, 41, 54, 1);
+:not(pre) > code[class*=language-],
+pre[class*=language-] {
+  background: rgb(40, 41, 54);
 }
 
 /* Inline code */
-:not(pre) > code[class*='language-'] {
+:not(pre) > code[class*=language-] {
   padding: 4px 7px;
   border-radius: 0.3em;
   white-space: normal;
@@ -704,11 +703,11 @@ pre[class*='language-'] {
 }
 
 .theme-dark .language-css .token.selector {
-  color: rgba(80, 250, 123, 1);
+  color: rgb(80, 250, 123);
 }
 
 .theme-dark .language-css .token.property {
-  color: rgba(255, 184, 108, 1);
+  color: rgb(255, 184, 108);
 }
 
 .language-java span.theme-dark .token.class-name {
@@ -720,11 +719,11 @@ pre[class*='language-'] {
 }
 
 .language-markup .theme-dark .token.attr-value {
-  color: rgba(102, 217, 239, 1);
+  color: rgb(102, 217, 239);
 }
 
 .language-markup .theme-dark .token.tag {
-  color: rgba(80, 250, 123, 1);
+  color: rgb(80, 250, 123);
 }
 
 .language-objectivec .theme-dark .token.property {
@@ -788,7 +787,7 @@ pre[class*='language-'] {
 }
 
 .markdown-preview-view blockquote::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0px;
@@ -797,7 +796,7 @@ pre[class*='language-'] {
   background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #13111a);
 }
 .markdown-preview-view blockquote::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0px;
@@ -1221,7 +1220,7 @@ ul .task-list-item ul::before {
   color: var(--text-title-h6);
 }
 
-/** headings */
+/** Headings */
 .markdown-preview-view h1 {
   font-family: var(--font-family-preview-heading);
   font-size: var(--font-size-h1);
