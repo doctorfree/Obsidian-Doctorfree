@@ -55,6 +55,10 @@ All changes made to SCSS files will automatically be migrated into your Obsidian
 
 ## Recommended Obsidian Community plugins
 
+This Obsidian theme has been configured for use with the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) community plugin. The theme CSS includes comments that enable easy customization of colors, fonts, and additional typography. This is an optional feature and can be enabled by installing the Style Settings plugin.
+
+Obsidian community plugins we have found useful and can recommend include the following:
+
 - [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
 - [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography): Enables enhanced preview typography
 - [Hider](https://github.com/kepano/obsidian-hider): Hides various elements of the UI
@@ -68,7 +72,7 @@ All changes made to SCSS files will automatically be migrated into your Obsidian
 
 This allows you to configure the theme directly in Obsidian without any CSS knowledge required!
 
-More settings to come, but if you have specific requests, please [open an issue here](https://github.com/doctorfree/Obsidian-Doctorfree/issues/new)!
+If you have specific requests, please [open an issue here](https://github.com/doctorfree/Obsidian-Doctorfree/issues/new)!
 
 #### Intermediate: Add CSS snippets
 
@@ -82,9 +86,9 @@ Here's a [useful forum post](https://forum.obsidian.md/t/how-to-achieve-css-code
 
 This is arguably the most reliable route, but will require some familiarity with coding.
 
-I recommend using [Node.js](https://nodejs.org/en/) so you can leverage the [Sass](https://sass-lang.com/) I'm starting to break out so you can make meaningful changes.
+I recommend using [Node.js](https://nodejs.org/en/) so you can leverage the [Sass](https://sass-lang.com/) and make meaningful changes.
 
-The Sass partials are will a work in progress though, so the way things are organized will probably change over time as I establish out better ways to structure how theming styles should be organized.
+The Sass partials are a work in progress and may change over time.
 
 ## Typography
 
