@@ -315,7 +315,7 @@ settings:
         level: 2
         collapsed: true
     - 
-        id: font-size
+        id: font-text-size
         title: Font Size
         description: The font size in pixels
         type: variable-number
@@ -336,6 +336,13 @@ settings:
         format: px
         default: 18
     - 
+        id: nav-item-size
+        title: "Nav Item Font Size"
+        description: "The navigation item font size in pixels"
+        type: variable-number
+        format: px
+        default: 18
+    - 
         id: font-size-code
         title: "Code Font Size"
         description: "The code font size in pixels"
@@ -345,14 +352,21 @@ settings:
     - 
         id: font-size-side-dock
         title: Side Dock Font Size
-        description: The side-dock font size in pixels
+        description: The side dock font size in pixels
         type: variable-number
         format: px
         default: 18
     - 
         id: font-size-side-dock-title
         title: "Side Dock Title Font Size"
-        description: The normal font size in pixels
+        description: "The side dock title font size in pixels"
+        type: variable-number
+        format: px
+        default: 18
+    - 
+        id: vault-name-font-size
+        title: "Vault Name Font Size"
+        description: The vault name font size in pixels
         type: variable-number
         format: px
         default: 18
@@ -787,14 +801,14 @@ settings:
   --font-ui-small: 16px;
   --font-ui-medium: 18px;
   --font-ui-large: 20px;
-  --font-size: 18px;
-  --font-size-normal: var(--font-size);
-  --code-size: var(--font-size);
-  --font-size-code: var(--code-size);
-  --font-size-side-dock: var(--font-size);
-  --font-size-side-dock-title: var(--font-size);
-  --font-size-status-bar: var(--font-size);
-  --table-header-size: var(--font-size);
+  --font-text-size: 18px;
+  --font-size-normal: var(--font-text-size);
+  --code-size: var(--font-text-size);
+  --font-size-code: inherit;
+  --font-size-side-dock: var(--font-text-size);
+  --font-size-side-dock-title: var(--font-text-size);
+  --font-size-status-bar: var(--font-text-size);
+  --table-header-size: var(--font-text-size);
   --font-size-h1: 30px;
   --font-size-h2: 25px;
   --font-size-h3: 21px;
@@ -965,6 +979,9 @@ a.tag[href*="#想法"] {
 /* GENERAL STYLES                     */
 /**************************************/
 body {
+  --file-header-font-size: 18px;
+  --nav-item-size: 18px;
+  --vault-name-font-size: 18px;
   font-weight: var(--body-font-weight, normal);
   font-size: var(--font-size-normal);
 }
@@ -1882,7 +1899,8 @@ code {
   border-top-right-radius: 0 !important;
   cursor: pointer;
   color: var(--text-muted);
-  font-size: 1rem;
+/*font-size: 1rem; */
+  font-size: var(--font-size-side-dock);
   line-height: 20px;
   padding: 1px 20px 0 26px;
   position: relative;
