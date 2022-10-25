@@ -672,10 +672,6 @@ settings:
   --font-text: Karla, Avenir Next, Helvetica, Arial, sans-serif;
   --font-family-preview: Karla, Avenir Next, Helvetica, Arial, sans-serif;
   --font-family-preview-heading: Rubik, Avenir Next, Helvetica, Arial, sans-serif;
-  --primary-background: #1B1A23;
-  --secondary-background: #22212C;
-  --tertiary-background: #353243;
-  --quaternary-background: #423F50;
   --white: #F8F8F3;
   --gray-1: #586e75;
   --gray-2: #D5D4DE;
@@ -693,10 +689,10 @@ settings:
 }
 .theme-light,
 .theme-dark {
-  --background-primary: hsl(207deg, 95%, 6%);
-  --background-primary-alt: #011c32;
-  --background-secondary: hsl(207deg, 95%, 8%);
-  --background-secondary-alt: #02223c;
+  --background-primary: hsl(207deg, 95%, 5%);
+  --background-primary-alt: hsl(200deg, 95%, 5%);
+  --background-secondary: hsl(210deg, 95%, 6%);
+  --background-secondary-alt: hsl(203deg, 95%, 6%);
   --background-accent: rgba(14, 210, 247, 0.25);
   --background-modifier-border: rgba(14, 210, 247, 0.05);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
@@ -1710,6 +1706,7 @@ thead {
   padding-left: 4% !important;
   padding-right: 2% !important;
 }
+
 /***************************************/
 /*    at a rule line before ul list    */
 /***************************************/
