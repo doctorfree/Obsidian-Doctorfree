@@ -693,12 +693,12 @@ settings:
 }
 .theme-light,
 .theme-dark {
-  --background-primary: hsl(207deg, 95%, 8%);
+  --background-primary: hsl(207deg, 95%, 6%);
   --background-primary-alt: #011c32;
-  --background-secondary: #011c32;
+  --background-secondary: hsl(207deg, 95%, 8%);
   --background-secondary-alt: #02223c;
-  --background-accent: #f8f8f2;
-  --background-modifier-border: #f8f8f2;
+  --background-accent: rgba(14, 210, 247, 0.25);
+  --background-modifier-border: rgba(14, 210, 247, 0.05);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-success: #50fa7b; /*not sure*/
   --background-modifier-error: #3d0000; /*not sure*/
@@ -717,7 +717,7 @@ settings:
   --text-highlight-bg: hsla(61deg, 100%, 32%, 0.8);
   --text-error: #ff79c6;
   --text-error-hover: #ff79c6;
-  --text-selection: #6272a4; /* Chromium process this color with alpha channel */
+  --text-selection: #6272a4;
   --text-on-accent: #bd93f9;
   --interactive-accent: rgba(14, 210, 247, 0.5);
   --interactive-accent-hover: rgba(14, 210, 247, 0.8);
@@ -737,7 +737,7 @@ settings:
   --pre-code: #44475a;
   --blockquote-border: #ffb86c;
   --vim-cursor: #ff5555;
-  --border-color: #2b2727; /* also like transparent */
+  --border-color: #2b2727;
 }
 
 /*-------------------------------------*/
@@ -917,10 +917,21 @@ body {
   color: var(--text-accent);
 }
 
-/** File and Folder Lists **/
+.nav-file-title.is-active,
+.nav-folder-title.is-active {
+  background: var(--background-modifier-border);
+  border: 1px solid var(--background-accent);
+}
+
 body:not(.is-grabbing) .nav-file-title:hover,
 body:not(.is-grabbing) .nav-folder-title:hover {
+  background: var(--background-modifier-border);
   border: 1px solid var(--interactive-accent-hover);
+}
+
+/** File and Folder lists **/
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
   color: var(--text-accent);
 }
 /** File and Folder list active arrow **/
@@ -928,7 +939,7 @@ body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
 body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   color: var(--text-accent);
 }
-/** Folder List main title **/
+/** File and Folder list main title **/
 .nav-folder.mod-root > .nav-file-title,
 .nav-folder.mod-root > .nav-folder-title {
   color: var(--text-accent);
