@@ -29,10 +29,12 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 ### Manual
 
-```
-mkdir -p .../.obsidian/themes/Doctorfree
-cp manifest.json .../.obsidian/themes/Doctorfree/manifest.json
-cp theme.css .../.obsidian/themes/Doctorfree/theme.css
+```shell
+git clone https://github.com/doctorfree/Obsidian-Doctorfree.git
+cd Obsidian-Doctorfree
+mkdir -p /path/to/vault/.obsidian/themes/Doctorfree
+cp manifest.json /path/to/vault/.obsidian/themes/Doctorfree/manifest.json
+cp theme.css /path/to/vault/.obsidian/themes/Doctorfree/theme.css
 ```
 
 1. Open the **Settings** in Obsidian
@@ -118,7 +120,7 @@ Both sync across platforms with `git`. They complement one another and work
 well together. For example, to create an nb notebook from an existing Obsidian
 vault (or any repository with markdown):
 
-```
+```shell
 nb notebooks add cheat-sheets https://github.com/doctorfree/cheat-sheets.git
 ```
 
@@ -134,7 +136,7 @@ Obsidian is free for personal use. However, the license includes a restriction
 on the use of Obsidian for revenue generating activities. Here is the relevant
 section from the Obsidian license:
 
-```
+```text
 You need to pay for Obsidian if and only if you use it to contribute, directly
 or indirectly, to revenue-generating, work-related activities in a company that
 has two or more people.
