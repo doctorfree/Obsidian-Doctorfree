@@ -53,6 +53,13 @@ This is for people who want to clone the repo and work with the file locally.
 
 All changes made to SCSS files will automatically be migrated into your Obsidian environment.
 
+## Recommended Obsidian Community plugins
+
+- [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
+- [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography): Enables enhanced preview typography
+- [Hider](https://github.com/kepano/obsidian-hider): Hides various elements of the UI
+- [Tag Wrangler](https://github.com/pjeby/tag-wrangler): Adds a context menu for tags in the Obsidian tag pane
+
 ## FAQ
 
 ### How do I customize this theme?
