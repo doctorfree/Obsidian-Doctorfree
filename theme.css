@@ -144,6 +144,12 @@ settings:
         opacity: true
         default: 'rgba(14, 210, 247, 0.8)'
     - 
+        id: table-border-color
+        title: Table Border Color
+        type: variable-color
+        format: hex
+        default: '#f8f8f2'
+    - 
         id: text-title-h1
         title: Heading 1 Color
         type: variable-color
@@ -309,9 +315,23 @@ settings:
         level: 2
         collapsed: true
     - 
+        id: font-size
+        title: Font Size
+        description: The font size in pixels
+        type: variable-number
+        format: px
+        default: 18
+    - 
         id: font-size-normal
         title: Normal Font Size
         description: The normal font size in pixels
+        type: variable-number
+        format: px
+        default: 18
+    - 
+        id: code-size
+        title: "Code Font Size"
+        description: "The code font size in pixels"
         type: variable-number
         format: px
         default: 18
@@ -339,7 +359,14 @@ settings:
     - 
         id: font-size-status-bar
         title: Status Bar Font Size
-        description: The status-bar font size in pixels
+        description: The status bar font size in pixels
+        type: variable-number
+        format: px
+        default: 18
+    - 
+        id: table-header-size
+        title: "Table Header Font Size"
+        description: "The table header font size in pixels"
         type: variable-number
         format: px
         default: 18
@@ -756,21 +783,24 @@ settings:
 /*          CSS Variables      */
 /*-----------------------------*/
 :root {
-  --font-size-normal: 18px;
-  --font-size-code: 18px;
-  --font-size-side-dock: 18px;
-  --font-size-side-dock-title: 18px;
-  --font-size-status-bar: 18px;
+  --font-ui-smaller: 14px;
+  --font-ui-small: 16px;
+  --font-ui-medium: 18px;
+  --font-ui-large: 20px;
+  --font-size: 18px;
+  --font-size-normal: var(--font-size);
+  --code-size: var(--font-size);
+  --font-size-code: var(--code-size);
+  --font-size-side-dock: var(--font-size);
+  --font-size-side-dock-title: var(--font-size);
+  --font-size-status-bar: var(--font-size);
+  --table-header-size: var(--font-size);
   --font-size-h1: 30px;
   --font-size-h2: 25px;
   --font-size-h3: 21px;
   --font-size-h4: 20px;
   --font-size-h5: 19px;
   --font-size-h6: 18px;
-  --font-ui-smaller: 14px;
-  --font-ui-small: 16px;
-  --font-ui-medium: 18px;
-  --font-ui-large: 20px;
   --font-family-editor: IBM Plex Mono, Menlo, Monaco, "Courier New", monospace;
   --font-text: Karla, "Avenir Next", Helvetica, Arial, sans-serif;
   --font-family-preview: Karla, "Avenir Next", Helvetica, Arial, sans-serif;
@@ -805,6 +835,7 @@ settings:
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
+  --table-border-color: #f8f8f2;
   --text-accent: #ffeb95;
   --text-accent-hover: #8be9fd;
   --text-sub-accent: #f4569d;
@@ -1541,7 +1572,7 @@ th {
   background-color: var(--background-secondary) !important;
 }
 thead {
-  border-bottom: 3px solid var(--background-modifier-border);
+  border-bottom: 3px solid var(--table-border-color);
 }
 .table {
   padding: 4px;
@@ -1564,7 +1595,7 @@ thead {
 /***************************************/
 /* search result in backlink or file search */
 .search-result-file-title {
-  font-size: 18px;
+  font-size: var(--font-size-normal);
 }
 .search-result-file-matches,
 .search-empty-state {
