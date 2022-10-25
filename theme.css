@@ -334,18 +334,11 @@ settings:
         description: "The code font size in pixels"
         type: variable-number
         format: px
-        default: 18
+        default: 16
     - 
         id: nav-item-size
         title: "Nav Item Font Size"
         description: "The navigation item font size in pixels"
-        type: variable-number
-        format: px
-        default: 18
-    - 
-        id: font-size-code
-        title: "Code Font Size"
-        description: "The code font size in pixels"
         type: variable-number
         format: px
         default: 18
@@ -803,8 +796,7 @@ settings:
   --font-ui-large: 20px;
   --font-text-size: 18px;
   --font-size-normal: var(--font-text-size);
-  --code-size: var(--font-text-size);
-  --font-size-code: inherit;
+  --code-size: var(--font-ui-small);
   --font-size-side-dock: var(--font-text-size);
   --font-size-side-dock-title: var(--font-text-size);
   --font-size-status-bar: var(--font-text-size);
@@ -889,7 +881,7 @@ settings:
 /*                tags                 */
 /*                link                 */
 /*               Cursor                */
-/* basic format in EDITOR and PREVIEW  */
+/* Basic format in EDITOR and PREVIEW  */
 /* Headings - EDITOR and PREVIEW       */
 /*         Code block in  Preview      */
 /*       Code block in Editor          */
@@ -979,6 +971,7 @@ a.tag[href*="#想法"] {
 /* GENERAL STYLES                     */
 /**************************************/
 body {
+  --code-size-code: 16px;
   --file-header-font-size: 18px;
   --nav-item-size: 18px;
   --vault-name-font-size: 18px;
@@ -1105,7 +1098,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
   background-color: var(--background-primary-alt);
 }
 
-/* except list markers */
+/* Except list markers */
 /* code block backticks */
 /* optionally header hashes */
 span.cm-formatting-list,
@@ -1215,23 +1208,23 @@ a:not(.internal-link) {
   opacity: 60% !important;
 }
 /**************************************/
-/* basic format in EDITOR and PREVIEW */
+/* Basic format in EDITOR and PREVIEW */
 /**************************************/
-/* font for everything outside of editor/preview panes */
+/* Font for everything outside of editor/preview panes */
 .app-container {
   font-family: var(--font-family-preview);
 }
-/* set the text selection color for preview mode */
+/* Set the text selection color for preview mode */
 ::selection {
   background-color: var(--text-selection);
 }
-/* normal text outside of headings and code of editor */
+/* Normal text outside of headings and code of editor */
 .cm-s-obsidian,
 .mod-single-child .cm-s-obsidian {
   font-family: var(--font-family-editor);
   font-size: var(--font-size-normal);
 }
-/* bold in preview and editor */
+/* Bold in preview and editor */
 .cm-strong,
 strong {
   -webkit-background-clip: text;
@@ -1242,7 +1235,7 @@ strong {
   background-color: #7aa2f7;
   background-image: linear-gradient(62deg, #87c2fd 0%, #dcb9fc 100%) !important;
 }
-/* emphasis in preview and editor */
+/* Emphasis in preview and editor */
 em,
 .cm-em {
   color: var(--text-italic-color);
@@ -1251,12 +1244,12 @@ em,
 .cm-em.cm-strong {
   color: var(--text-italic-bold-color);
 }
-/* strikethrough in preview and editor */
+/* Strikethrough in preview and editor */
 s,
 .cm-strikethrough {
   color: var(--text-muted);
 }
-/* list in editor */
+/* List in editor */
 .cm-s-obsidian span.cm-formatting-list {
   color: var(--text-normal) !important;
 }
@@ -1307,7 +1300,7 @@ img:hover {
 /* code blocks in preview */
 pre code {
   font-family: monaco !important;
-  font-size: var(--font-size-code) !important;
+  font-size: var(--code-size) !important;
   padding: 6px !important;
   line-height: normal;
   display: block;
@@ -1319,7 +1312,7 @@ pre code {
 }
 /* font-size of in-line block for preview */
 .markdown-preview-view code {
-  font-size: var(--font-size-code);
+  font-size: var(--code-size);
 }
 /* remove the shadow that typically affect light mode */
 .theme-dark code[class*=language-],
@@ -1366,6 +1359,10 @@ pre[class$=js]:before {
 pre[class$=typescript]:before,
 pre[class$=ts]:before {
   content: "typescript";
+}
+
+pre[class$=code]:before {
+  content: "code";
 }
 
 pre[class$=text]:before {
@@ -1647,7 +1644,6 @@ thead {
 .markdown-preview-view .markdown-embed-content > :last-child {
   margin-bottom: 0;
 }
-/*remove the following two line, you will get border and scroll*/
 .markdown-preview-view .markdown-embed {
   border: none;
   padding: 0;
@@ -1663,6 +1659,19 @@ thead {
 }
 .markdown-embed-link:hover {
   color: var(--text-accent) !important;
+}
+.markdown-rendered button.copy-code-button {
+  margin: 6px;
+  padding: 16px 8px;
+  height: auto;
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+  font-family: var(--font-interface);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /***************************************/
 /*             Graph View              */
