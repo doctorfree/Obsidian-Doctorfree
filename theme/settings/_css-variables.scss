@@ -21,7 +21,24 @@
   --font-text: Karla, Avenir Next, Helvetica, Arial, sans-serif;
   --font-family-preview: Karla, Avenir Next, Helvetica, Arial, sans-serif;
   --font-family-preview-heading: Rubik, Avenir Next, Helvetica, Arial, sans-serif;
-  --primary-lavender: #b380fb;
+  --primary-background: #1B1A23;
+  --secondary-background: #22212C;
+  --tertiary-background: #353243;
+  --quaternary-background: #423F50;
+  --white: #F8F8F3;
+  --gray-1: #586e75;
+  --gray-2: #D5D4DE;
+  --red: #FF5555;
+  --orange: #FE9580;
+  --green: #8AFF7F;
+  --cyan: #81FFEA;
+  --cyan-transparent: rgba(129, 255, 234, 0.3);
+  --purple: #9580FF;
+  --purple-transparent: rgba(149, 128, 255, 0.5);
+  --pink: #FE7FBF;
+  --blue: #00588E;
+  --lavender: #b380fb;
+  --yellow: #FEFF7F;
 }
 .theme-light,
 .theme-dark {
