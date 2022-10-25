@@ -8,11 +8,11 @@
 **  —— Made with 💎 by Dr. Ronald Joe Record
 ** ------------------------------------------------------------------- */
 
-@charset "UTF-8";
+@charset "UTF-8";@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400;1,500&family=Karla:ital,wght@0,400;0,600;1,400;1,600&family=Rubik:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 
-/*------------- --------------------*/
-/*          Typography              */
-/*------------- --------------------*/
+/*-----------------------------*/
+/*          Typography         */
+/*-----------------------------*/
 /*-----------------------------*/
 /*          Colors             */
 /*-----------------------------*/
@@ -46,97 +46,261 @@ settings:
         format: hex
         default: '#b380fb'
     - 
-        id: accent
+        id: text-accent
         title: Accent Color
         type: variable-color
-        format: hsl-split
-        default: '#007AFF'
+        format: hex
+        default: '#ffeb95'
+    - 
+        id: text-accent-hover
+        title: Hover Accent Color
+        type: variable-color
+        format: hex
+        default: '#8be9fd'
+    - 
+        id: text-sub-accent
+        title: Sub Accent Color
+        type: variable-color
+        format: hex
+        default: '#f4569d'
+    - 
+        id: background-primary
+        title: Background Color
+        type: variable-color
+        format: hsl
+        opacity: false
+        default: hsl(207deg, 95%, 5%)
+    - 
+        id: background-primary-alt
+        title: Alternate Background Color
+        type: variable-color
+        format: hsl
+        opacity: false
+        default: 'hsl(210deg, 95%, 6%)'
+    - 
+        id: background-secondary
+        title: Secondary Background Color
+        type: variable-color
+        format: hsl
+        opacity: false
+        default: 'hsl(200deg, 95%, 5%)'
+    - 
+        id: background-secondary-alt
+        title: Alternate Secondary Background Color
+        type: variable-color
+        format: hsl
+        opacity: false
+        default: 'hsl(203deg, 95%, 6%)'
+    - 
+        id: background-accent
+        title: Accent Background Color
+        type: variable-color
+        format: rgb
+        opacity: true
+        default: 'rgba(14, 210, 247, 0.25)'
     - 
         id: text-highlight-bg
         title: Highlight Color
-        type: variable-themed-color
+        type: variable-color
         format: rgb
         opacity: true
-        default-light: 'rgba(255, 224, 0, 0.5)'
-        default-dark: 'rgba(255, 177, 80, 0.3)'
+        default: 'hsla(61deg, 100%, 32%, 0.8)'
+    - 
+        id: text-normal
+        title: Text Normal Color
+        type: variable-color
+        format: hex
+        default: '#f8f8f2'
     - 
         id: text-selection
         title: Text Selection Background Color
-        type: variable-themed-color
-        format: hsl
+        type: variable-color
+        format: hex
+        default: '#6272a4'
+    - 
+        id: text-muted
+        title: Text Muted Color
+        type: variable-color
+        format: hex
+        default: '#f8f8f2'
+    - 
+        id: text-faint
+        title: Text Faint Color
+        type: variable-color
+        format: hex
+        default: '#7fdbca'
+    - 
+        id: interactive-accent
+        title: Interactive Accent Background Color
+        type: variable-color
+        format: rgb
         opacity: true
-        default-light: 'hsla(0, 0%, 0%, 0.08)'
-        default-dark: 'hsla(211, 100%, 42%, 0.3)'
+        default: 'rgba(14, 210, 247, 0.5)'
     - 
-        id: strong-color
-        title: Bold Color
-        type: variable-themed-color
-        format: hex
-        default-light: '#1a1a1a'
-        default-dark: '#bababa'
+        id: interactive-accent-hover
+        title: Interactive Accent Hover Color
+        type: variable-color
+        format: rgb
+        opacity: true
+        default: 'rgba(14, 210, 247, 0.8)'
     - 
-        id: em-color
-        title: Italic Color
-        type: variable-themed-color
+        id: text-title-h1
+        title: Heading 1 Color
+        type: variable-color
         format: hex
-        default-light: '#1a1a1a'
-        default-dark: '#bababa'
+        default: '#ff79c6'
     - 
-        id: h1-color
-        title: H1 Color
-        type: variable-themed-color
+        id: text-title-h2
+        title: Heading 2 Color
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#82aaff'
     - 
-        id: h2-color
-        title: H2 Color
-        type: variable-themed-color
+        id: text-title-h3
+        title: Heading 3 Color
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#c5e478'
     - 
-        id: h3-color
-        title: H3 Color
-        type: variable-themed-color
+        id: text-title-h4
+        title: Heading 4 Color
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#ffb86c'
     - 
-        id: h4-color
-        title: H4 Color
-        type: variable-themed-color
+        id: text-title-h5
+        title: Heading 5 Color
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#50fa7b'
     - 
-        id: h5-color
-        title: H5 Color
-        type: variable-themed-color
+        id: text-title-h6
+        title: Heading 6 Color
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#8be9fd'
     - 
-        id: h6-color
-        title: H6 Color
-        type: variable-themed-color
+        id: inline-code
+        title: "Inline Code Color"
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#bd93f9'
     - 
-        id: code-color
-        title: Indent Code Color
-        type: variable-themed-color
+        id: code-block
+        title: "Code Block Color"
+        type: variable-color
         format: hex
-        opacity: false
-        default-light: '#1f1f1f'
-        default-dark: '#bababa'
+        default: '#8be9fd'
+    - 
+        id: pre-code
+        title: "Inline Code Color"
+        type: variable-color
+        format: hex
+        default: '#44475a'
+    - 
+        id: vim-cursor
+        title: "Vim Cursor Color"
+        type: variable-color
+        format: hex
+        default: '#ff5555'
+    - 
+        id: border-color
+        title: "Border Color"
+        type: variable-color
+        format: hex
+        default: '#2b2727'
+    - 
+        id: border-color-alt
+        title: "Alternate Border Color"
+        type: variable-color
+        format: hex
+        default: '#101014'
+    - 
+        id: white
+        title: "White Color"
+        type: variable-color
+        format: hex
+        default: '#F8F8F3'
+    - 
+        id: gray-1
+        title: "Gray 1 Color"
+        type: variable-color
+        format: hex
+        default: '#586e75'
+    - 
+        id: gray-2
+        title: "Gray 2 Color"
+        type: variable-color
+        format: hex
+        default: '#D5D4DE'
+    - 
+        id: red
+        title: "Red Color"
+        type: variable-color
+        format: hex
+        default: '#FF5555'
+    - 
+        id: orange
+        title: "Orange Color"
+        type: variable-color
+        format: hex
+        default: '#FE9580'
+    - 
+        id: green
+        title: "Green Color"
+        type: variable-color
+        format: hex
+        default: '#8AFF7F'
+    - 
+        id: cyan
+        title: "Cyan Color"
+        type: variable-color
+        format: hex
+        default: '#81FFEA'
+    - 
+        id: cyan-transparent
+        title: "Cyan Transparent Color"
+        type: variable-color
+        format: rgb
+        opacity: true
+        default: 'rgba(129, 255, 234, 0.3)'
+    - 
+        id: purple
+        title: "Purple Color"
+        type: variable-color
+        format: hex
+        default: '#9580FF'
+    - 
+        id: purple-transparent
+        title: "Purple Transparent Color"
+        type: variable-color
+        format: rgb
+        opacity: true
+        default: 'rgba(149, 128, 255, 0.5)'
+    - 
+        id: pink
+        title: "Pink Color"
+        type: variable-color
+        format: hex
+        default: '#FE7FBF'
+    - 
+        id: blue
+        title: "Blue Color"
+        type: variable-color
+        format: hex
+        default: '#00588E'
+    - 
+        id: lavender
+        title: "Lavender Color"
+        type: variable-color
+        format: hex
+        default: '#b380fb'
+    - 
+        id: yellow
+        title: "Yellow Color"
+        type: variable-color
+        format: hex
+        default: '#FEFF7F'
 
     - 
         id: custom-fonts
@@ -647,11 +811,10 @@ settings:
         min: 50
         max: 150
         step: 1
-
 */
-/*-------------------------------------*/
-/*          CSS Variables              */
-/*-------------------------------------*/
+/*-----------------------------*/
+/*          CSS Variables      */
+/*-----------------------------*/
 :root {
   --font-size-normal: 18px;
   --font-size-code: 18px;
@@ -690,14 +853,14 @@ settings:
 .theme-light,
 .theme-dark {
   --background-primary: hsl(207deg, 95%, 5%);
-  --background-primary-alt: hsl(200deg, 95%, 5%);
-  --background-secondary: hsl(210deg, 95%, 6%);
+  --background-primary-alt: hsl(210deg, 95%, 6%);
+  --background-secondary: hsl(200deg, 95%, 5%);
   --background-secondary-alt: hsl(203deg, 95%, 6%);
   --background-accent: rgba(14, 210, 247, 0.25);
   --background-modifier-border: rgba(14, 210, 247, 0.05);
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
-  --background-modifier-success: #50fa7b; /*not sure*/
-  --background-modifier-error: #3d0000; /*not sure*/
+  --background-modifier-success: #50fa7b;
+  --background-modifier-error: #3d0000;
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
@@ -711,17 +874,9 @@ settings:
   --text-muted: #f8f8f2;
   --text-faint: #7fdbca;
   --text-highlight-bg: hsla(61deg, 100%, 32%, 0.8);
-  --text-error: #ff79c6;
-  --text-error-hover: #ff79c6;
   --text-selection: #6272a4;
-  --text-on-accent: #bd93f9;
   --interactive-accent: rgba(14, 210, 247, 0.5);
   --interactive-accent-hover: rgba(14, 210, 247, 0.8);
-  --interactive-before: #5e6565;
-  --interactive-accent-rgb: #3dd7fb;
-  --scrollbar-active-thumb-bg: #282a36;
-  --scrollbar-bg: #282a36;
-  --scrollbar-thumb-bg: #282a36;
   --text-title-h1: #ff79c6;
   --text-title-h2: #82aaff;
   --text-title-h3: #c5e478;
@@ -731,9 +886,9 @@ settings:
   --inline-code: #bd93f9;
   --code-block: #8be9fd;
   --pre-code: #44475a;
-  --blockquote-border: #ffb86c;
   --vim-cursor: #ff5555;
   --border-color: #2b2727;
+  --border-color-alt: #101014;
 }
 
 /*-------------------------------------*/
@@ -904,7 +1059,7 @@ body {
 /** Left side menu border **/
 .workspace-ribbon.mod-left.is-collapsed,
 .workspace-ribbon.mod-right.is-collapsed {
-  border-color: var(--editor-border-color);
+  border-color: var(--border-color-alt);
 }
 
 /** Navigation tabs **/
@@ -997,7 +1152,7 @@ span.cm-formatting-header {
   font-size: var(--font-size-status-bar);
   background-color: var(--background-secondary-alt);
   border-top: 0px;
-  border-color: #101014;
+  border-color: var(--border-color-alt);
   color: var(--text-faint);
   position: absolute;
   margin: auto;
