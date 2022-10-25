@@ -32,7 +32,7 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 ```
 mkdir -p .../.obsidian/themes/Doctorfree
 cp manifest.json .../.obsidian/themes/Doctorfree/manifest.json
-cp doctorfree.css .../.obsidian/themes/Doctorfree/theme.css
+cp theme.css .../.obsidian/themes/Doctorfree/theme.css
 ```
 
 1. Open the **Settings** in Obsidian
