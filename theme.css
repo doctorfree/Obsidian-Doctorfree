@@ -357,6 +357,13 @@ settings:
         format: px
         default: 18
     - 
+        id: popover-font-size
+        title: "Pop Over Font Size"
+        description: The popup window font size in pixels
+        type: variable-number
+        format: px
+        default: 14
+    - 
         id: vault-name-font-size
         title: "Vault Name Font Size"
         description: The vault name font size in pixels
@@ -974,6 +981,7 @@ body {
   --code-size-code: 16px;
   --file-header-font-size: 18px;
   --nav-item-size: 18px;
+  --popover-font-size: 14px;
   --vault-name-font-size: 18px;
   font-weight: var(--body-font-weight, normal);
   font-size: var(--font-size-normal);
