@@ -61,9 +61,11 @@ This Obsidian theme has been configured for use with the [Style Settings](https:
 
 Obsidian community plugins we have found useful and can recommend include the following:
 
-- [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview): Treats an Obsidian Vault as a database from which you can query
+- [Pandoc](https://github.com/OliverBalfour/obsidian-pandoc): Adds command palette options to export your notes to a variety of formats
 - [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography): Enables enhanced preview typography
 - [Hider](https://github.com/kepano/obsidian-hider): Hides various elements of the UI
+- [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
 - [Tag Wrangler](https://github.com/pjeby/tag-wrangler): Adds a context menu for tags in the Obsidian tag pane
 
 ## FAQ
