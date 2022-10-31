@@ -11,6 +11,19 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 </div>
 
+## Table of Contents
+
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Obsidian Settings](#obsidian-settings)
+- [Local Dev Environment](#local-dev-environment)
+- [Recommended Obsidian Community plugins](#recommended-obsidian-community-plugins)
+- [FAQ](#faq)
+- [Typography](#typography)
+- [Obsidian plus NB](#obsidian-plus-nb)
+- [Obsidian license restriction](#obsidian-license-restriction)
+- [Credit](#credit)
+
 ## Screenshots
 
 <img src="screenshots/headings.png"><br />
@@ -44,12 +57,13 @@ cp theme.css /path/to/vault/.obsidian/themes/Doctorfree/theme.css
 
 ## Obsidian Settings
 
+- `Settings -> Appearance -> Basic color scheme`: *Dark*
 - `Settings -> Appearance -> Themes`: *Doctorfree*
 
-### Optional
+### Optional Obsidian Settings
 
 - `Settings -> Appearance -> Font`:
-    - I use Mononoki Nerd Font
+    - I use *Mononoki Nerd Font* and *Mononoki Nerd Font Mono*
     - The default font size in Obsidian is too small, I bump it up to 24
 - `Settings -> Appearance -> Advanced`: Disable *Show inline title*
 - `Settings -> Editor -> Default view for new tabs`: *Reading view*
