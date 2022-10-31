@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## Version 1.0.2 (Oct 31, 2022)
+
+* Hide metadata box at top of note in preview mode
+* Adjust text highlight background to more readable
+* Create copy of theme.css named obsidian.css for older versions of Obsidian
+* Add Dataview and Pandoc to recommended plugins
+* Move screenshots into subdir
+* Adjust popover font size
+* Adjust code font size and code copy button position
+* Add git clone to manual install instructions
+* Adjust nav, backlinks, vault name, and file title default font sizes
+* Adjust default font sizes and table border color
+* Add note about use of Style Settings plugin
+* Configure settings color variables for use with style settings plugin
+* Improve Navigation panel styling
+
 ## Version 1.0.1 (Oct 25, 2022)
 
 * Add recommended plugins
