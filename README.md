@@ -42,7 +42,19 @@ cp theme.css /path/to/vault/.obsidian/themes/Doctorfree/theme.css
 1. Under the **Themes** section, click on the dropdown menu next to **Theme** heading
 1. Select for `Doctorfree` and then you're done! 🎉'
 
-### Local Dev Environment
+## Obsidian Settings
+
+- `Settings -> Appearance -> Themes`: *Doctorfree*
+
+### Optional
+
+- `Settings -> Appearance -> Font`:
+    - I use Mononoki Nerd Font
+    - The default font size in Obsidian is too small, I bump it up to 24
+- `Settings -> Appearance -> Advanced`: Disable *Show inline title*
+- `Settings -> Editor -> Default view for new tabs`: *Reading view*
+
+## Local Dev Environment
 
 This is for people who want to clone the repo and work with the file locally.
 
