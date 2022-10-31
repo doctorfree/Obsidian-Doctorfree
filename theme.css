@@ -1697,7 +1697,7 @@ thead {
 /* Line When Hover */
 .graph-view.color-circle,
 .graph-view.color-line-highlight {
-  color: var(--yellow) !important;
+  color: var(--cyan) !important;
   border: 0;
 }
 /* Circle When Hover */
@@ -1705,7 +1705,7 @@ thead {
   color:var(--green);
 }
 .graph-view.color-text {
-  color:var(--cyan);
+  color:var(--yellow);
 }
 .graph-view.color-line {
   color: #6272a4;
