@@ -909,6 +909,15 @@ settings:
 /*  Hide Scrollbar (recommend for mac) */
 /*-------------------------------------*/
 
+/************************/
+/* YAML IN PREVIEW MODE */
+/************************/
+
+/* Hide the metadata box at top of note in preview mode */
+.frontmatter-container {
+    display: none;
+}
+
 /**************************/
 /* CUSTOMIZED TAG COLOURS */
 /**************************/
