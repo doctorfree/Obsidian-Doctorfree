@@ -44,7 +44,7 @@ cp theme.css /path/to/vault/.obsidian/themes/Doctorfree/theme.css
 
 ## Obsidian Settings
 
-- `Settings -> Appearance -> Themes`: **Doctorfree**
+- `Settings -> Appearance -> Themes`: *Doctorfree*
 
 ### Optional
 
