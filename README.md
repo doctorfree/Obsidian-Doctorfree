@@ -26,7 +26,7 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 ## Screenshots
 
-<img src="screenshots/headings.png"><br />
+<img src="screenshots/headings-1920.png"><br />
 
 <img src="screenshots/graph-view.png"><br />
 
