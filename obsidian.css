@@ -1414,8 +1414,48 @@ pre[class$=json]:before {
   content: "Json";
 }
 
+pre[class$=yaml]:before {
+  content: "yaml";
+}
+
 pre[class$=python]:before {
   content: "python";
+}
+
+pre[class$=lua]:before {
+  content: "lua";
+}
+
+pre[class$=php]:before {
+  content: "php";
+}
+
+pre[class$=ruby]:before {
+  content: "ruby";
+}
+
+pre[class$=rust]:before {
+  content: "rust";
+}
+
+pre[class$=sql]:before {
+  content: "sql";
+}
+
+pre[class$=toml]:before {
+  content: "toml";
+}
+
+pre[class$=haskell]:before {
+  content: "haskell";
+}
+
+pre[class$=ini]:before {
+  content: "ini";
+}
+
+pre[class$=java]:before {
+  content: "java";
 }
 
 .theme-dark :not(pre) > code[class*=language-],
@@ -1697,7 +1737,7 @@ thead {
 /* Line When Hover */
 .graph-view.color-circle,
 .graph-view.color-line-highlight {
-  color: var(--yellow) !important;
+  color: var(--cyan) !important;
   border: 0;
 }
 /* Circle When Hover */
@@ -1705,7 +1745,7 @@ thead {
   color:var(--green);
 }
 .graph-view.color-text {
-  color:var(--cyan);
+  color:var(--yellow);
 }
 .graph-view.color-line {
   color: #6272a4;
