@@ -894,7 +894,7 @@ settings:
 /*       Code block in Editor          */
 /*              Brackets               */
 /*             Blockquote              */
-/*               table                 */
+/*               Table                 */
 /*              Checkbox               */
 /*           html in editor            */
 /*              popover                */
@@ -1632,8 +1632,27 @@ pre[class*=language-] {
   width: 25%;
   background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), #15131c);
 }
+
 /***************************************/
-/*             table                   */
+/*             Image                   */
+/***************************************/
+.markdown-preview-view img {
+  display: block;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* experiment with values */
+  transition: transform 0.25s ease;
+}
+
+.markdown-preview-view img:hover {
+  -webkit-transform: scale(1.5); /* experiment with values */
+  transform: scale(2);
+}
+
+/***************************************/
+/*             Table                   */
 /***************************************/
 th {
   font-weight: 800 !important;
