@@ -1642,12 +1642,12 @@ pre[class*=language-] {
   margin-bottom: 20pt;
   margin-left: auto;
   margin-right: auto;
-  width: 25%; /* experiment with values */
+  width: 50%; /* experiment with values */
   transition: transform 0.25s ease;
 }
 
 .markdown-preview-view img:hover {
-  -webkit-transform: scale(1.25); /* experiment with values */
+  -webkit-transform: scale(1.15); /* experiment with values */
   transform: scale(2);
 }
 
