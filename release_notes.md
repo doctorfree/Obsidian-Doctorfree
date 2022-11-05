@@ -1,7 +1,7 @@
-![](https://github.com/doctorfree/Obsidian-Doctorfree/blob/main/obsidian.png)
 
 <h1 align="center">Obsidian Theme: Doctorfree</h1>
 <div align="center">
+<img src="https://github.com/doctorfree/Obsidian-Doctorfree/blob/main/obsidian.png"><br>
 v1.x | Designed & Coded with 💎 by Dr. Ronald Joe Record <br>
 This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 ⚡ Inspired by the [Night Owl theme](https://github.com/bencodezen/obsidian-night-owl-theme) by [Ben Hong](https://twitter.com/bencodezen) and the [Obsidianite theme](https://github.com/bennyxguo/Obsidian-Obsidianite) by [Benny Guo](https://twitter.com/bennyxguo)<br>
