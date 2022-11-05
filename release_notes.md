@@ -1,27 +1,22 @@
-# Release Notes
-
-## Table of contents
-
-1. [Overview](#overview)
-1. [Installation](#installation)
-1. [Configuration](#configuration)
-1. [Removal](#removal)
-1. [Support](#support)
-1. [Changelog](#changelog)
-
-## Overview
-
 <h1 align="center">Obsidian Theme: Doctorfree</h1>
 <div align="center">
 v1.x | Designed & Coded with 💎 by Dr. Ronald Joe Record <br>
 This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 ⚡ Inspired by the [Night Owl theme](https://github.com/bencodezen/obsidian-night-owl-theme) by [Ben Hong](https://twitter.com/bencodezen) and the [Obsidianite theme](https://github.com/bennyxguo/Obsidian-Obsidianite) by [Benny Guo](https://twitter.com/bennyxguo)<br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**[CHANGES](https://github.com/doctorfree/Obsidian-Doctorfree/blob/main/CHANGELOG.md)** | **[OBSIDIAN FORUM](https://forum.obsidian.md/)** | **[INSTALL](#installation)**
 </div>
 
+# Release Notes
+
 These are the release notes for Version 1.0.3 Release 1 of the Doctorfree Obsidian theme.
+
+## Table of contents
+
+1. [Installation](#installation)
+1. [Configuration](#configuration)
+1. [Removal](#removal)
+1. [Support](#support)
+1. [Changelog](#changelog)
 
 ## Installation
 
