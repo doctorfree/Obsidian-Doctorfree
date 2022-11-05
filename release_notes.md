@@ -1,3 +1,5 @@
+![](https://github.com/doctorfree/Obsidian-Doctorfree/blob/main/obsidian.png)
+
 <h1 align="center">Obsidian Theme: Doctorfree</h1>
 <div align="center">
 v1.x | Designed & Coded with 💎 by Dr. Ronald Joe Record <br>
