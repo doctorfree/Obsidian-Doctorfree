@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.0.2"
+VERSION="1.0.3"
 RELEASE=1
 
 usage() {
@@ -38,6 +38,6 @@ ANNO="Obsidian Doctorfree Version ${VERSION} Release ${RELEASE}"
 
 gh release create v${VERSION}r${RELEASE} ${DRAFT} \
                   --title "${ANNO}" \
-                  --generate-notes
+                  --notes-file release_notes.md
 
 git fetch --tags origin

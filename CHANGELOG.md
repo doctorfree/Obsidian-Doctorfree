@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## Version 1.0.3 (Nov 15, 2022)
+
+* Adjust image scaling and zoom on hover
+* Add table center and wide classes
+* Don't enlarge images on hover so much
+* Add image zoom on hover
+* Add additional language support in detecting and labelling code blocks
+* Reduce headings screenshot so theme loads faster in the theme store
+* Swap graph view line color and text color for readability
+* Add release creation script
+* Bump minor version, update changelog
+* Adjust text highlight background to more readable
+* Add table of contents to README
+
 ## Version 1.0.2 (Oct 31, 2022)
 
 * Hide metadata box at top of note in preview mode
