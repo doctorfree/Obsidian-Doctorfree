@@ -38,7 +38,7 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 1. Navigate to **Appearances** tab under **Options**
 1. Under the **Themes** section, click on the `Browse` or `Manage` button
 1. Search for `Doctorfree` in the Filter text input in the upper left corner
-1. Click `Use this theme` and you're done! 🎉
+1. Click `Use this theme` or `Install and use` and you're done! 🎉
 
 ### Manual
 
