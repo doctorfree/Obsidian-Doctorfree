@@ -32,13 +32,13 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 ## Installation
 
-### Obsidian Marketplace (Coming soon)
+### Obsidian Marketplace
 
 1. Open the **Settings** in Obsidian
 1. Navigate to **Appearances** tab under **Options**
-1. Under the **Themes** section, click on the `Browse` button next to **Community Themes**
+1. Under the **Themes** section, click on the `Browse` or `Manage` button
 1. Search for `Doctorfree` in the Filter text input in the upper left corner
-1. Click `Use` and then you're done! 🎉
+1. Click `Use this theme` and you're done! 🎉
 
 ### Manual
 
