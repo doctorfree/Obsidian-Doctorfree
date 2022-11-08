@@ -1,7 +1,9 @@
 # CHANGELOG
 
-## Version 1.0.3 (Nov 15, 2022)
+## Version 1.0.3 (Nov 8, 2022)
 
+* Accepted in Obsidian theme store
+* Add release notes
 * Adjust image scaling and zoom on hover
 * Add table center and wide classes
 * Don't enlarge images on hover so much
