@@ -87,12 +87,17 @@ This Obsidian theme has been configured for use with the [Style Settings](https:
 
 Obsidian community plugins we have found useful and can recommend include the following:
 
-- [Dataview](https://github.com/blacksmithgu/obsidian-dataview): Treats an Obsidian Vault as a database from which you can query
-- [Pandoc](https://github.com/OliverBalfour/obsidian-pandoc): Adds command palette options to export your notes to a variety of formats
 - [Contextual Typography](https://github.com/mgmeyers/obsidian-contextual-typography): Enables enhanced preview typography
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview): Treats an Obsidian Vault as a database from which you can query
+- [Excalibrain](https://github.com/zsviczian/excalibrain): An interactive structured mind-map of an Obsidian vault
+- [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin): Edit and view Excalidraw in Obsidian
 - [Hider](https://github.com/kepano/obsidian-hider): Hides various elements of the UI
+- [Hover-editor](https://github.com/nothingislost/obsidian-hover-editor): Turns the hover popover into a full featured editor
+- [Pandoc](https://github.com/OliverBalfour/obsidian-pandoc): Adds command palette options to export your notes to a variety of formats
+- [Quickadd](https://github.com/chhoumann/quickadd): Quickly add content to a vault
+- [Shellcommands](https://github.com/Taitava/obsidian-shellcommands): Define and run shell commands
 - [Style Settings](https://github.com/mgmeyers/obsidian-style-settings): Enables theme customization
-- [Tag Wrangler](https://github.com/pjeby/tag-wrangler): Adds a context menu for tags in the Obsidian tag pane
+- [Templater](https://github.com/SilentVoid13/Templater): Defines a powerful templating language
 
 ## FAQ
 
