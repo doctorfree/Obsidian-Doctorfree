@@ -2,7 +2,7 @@
 <h1 align="center">Obsidian Theme: Doctorfree</h1>
 <div align="center">
 <img src="https://github.com/doctorfree/Obsidian-Doctorfree/blob/822b43efb9138c8e252a29a0c3ddde1acbcb98c7/obsidian.png"><br>
-v1.x | Designed & Coded with 💎 by Dr. Ronald Joe Record <br>
+Designed & Coded with 💎 by Dr. Ronald Joe Record <br>
 This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 ⚡ Inspired by the [Night Owl theme](https://github.com/bencodezen/obsidian-night-owl-theme) by [Ben Hong](https://twitter.com/bencodezen) and the [Obsidianite theme](https://github.com/bennyxguo/Obsidian-Obsidianite) by [Benny Guo](https://twitter.com/bennyxguo)<br>
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -10,7 +10,7 @@ This custom theme is designed for use with [Obsidian](https://obsidian.md/)<br>
 
 # Release Notes
 
-These are the release notes for Version 1.0.3 Release 1 of the Doctorfree Obsidian theme.
+These are the release notes for Version 1.0.3 Release 2 of the Doctorfree Obsidian theme.
 
 ## Table of contents
 
@@ -39,8 +39,8 @@ These are the release notes for Version 1.0.3 Release 1 of the Doctorfree Obsidi
 Those familiar with `wget` can download this release from the command line with:
 
 ```shell
-wget --quiet -O ~/Downloads/Obsidian-Doctorfree-v1.0.3r1.tar.gz \
-  https://github.com/doctorfree/Obsidian-Doctorfree/archive/refs/tags/v1.0.3r1.tar.gz
+wget --quiet -O ~/Downloads/Obsidian-Doctorfree-v1.0.3r2.tar.gz \
+  https://github.com/doctorfree/Obsidian-Doctorfree/archive/refs/tags/v1.0.3r2.tar.gz
 ```
 
 ### Extract the release archive
@@ -51,20 +51,20 @@ To extract the ZIP archive:
 
 ```shell
 cd /path/to/download # e.g. `cd ~/Downloads`
-unzip Obsidian-Doctorfree-1.0.3r1.zip
+unzip Obsidian-Doctorfree-1.0.3r2.zip
 ```
 
 To extract the compressed tar archive:
 
 ```shell
 cd /path/to/download # e.g. `cd ~/Downloads`
-tar xf ./Obsidian-Doctorfree-1.0.3r1.tar.gz
+tar xf ./Obsidian-Doctorfree-1.0.3r2.tar.gz
 ```
 
-Once extracted, the Doctorfree Obsidian theme is now available in `Obsidian-Doctorfree-1.0.3r1/`. Copy the theme and manifest into an Obsidian vault `themes` folder:
+Once extracted, the Doctorfree Obsidian theme is now available in `Obsidian-Doctorfree-1.0.3r2/`. Copy the theme and manifest into an Obsidian vault `themes` folder:
 
 ```shell
-cd Obsidian-Doctorfree-1.0.3r1
+cd Obsidian-Doctorfree-1.0.3r2
 mkdir -p /path/to/vault/.obsidian/themes/Doctorfree
 cp manifest.json /path/to/vault/.obsidian/themes/Doctorfree/manifest.json
 cp theme.css /path/to/vault/.obsidian/themes/Doctorfree/theme.css
@@ -74,16 +74,16 @@ The downloaded archive and extracted folder can be deleted:
 
 ```shell
 cd ..
-rm -f Obsidian-Doctorfree-1.0.3r1.zip
-rm -rf Obsidian-Doctorfree-1.0.3r1
+rm -f Obsidian-Doctorfree-1.0.3r2.zip
+rm -rf Obsidian-Doctorfree-1.0.3r2
 ```
 
 or
 
 ```shell
 cd ..
-rm -f Obsidian-Doctorfree-1.0.3r1.tar.gz
-rm -rf Obsidian-Doctorfree-1.0.3r1
+rm -f Obsidian-Doctorfree-1.0.3r2.tar.gz
+rm -rf Obsidian-Doctorfree-1.0.3r2
 ```
 
 ### Manual from cloned repository
@@ -133,4 +133,4 @@ Support the development and improvement of the Doctorfree Obsidian theme by [spo
 
 ## Changelog
 
-View the full changelog for this release at https://github.com/doctorfree/Obsidian-Doctorfree/blob/v1.0.3r1/CHANGELOG.md
+View the full changelog for this release at https://github.com/doctorfree/Obsidian-Doctorfree/blob/v1.0.3r2/CHANGELOG.md
