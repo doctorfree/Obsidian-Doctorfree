@@ -1,13 +1,13 @@
 # CHANGELOG
 
-## Version 1.0.4 (Nov 20, 2022)
+## Version 1.0.3 release 2 (Nov 20, 2022)
 
 * Add tr border bottom for table-view-table
 * Add recommended plugins
 * Add Github Pages theme
 * Update installation instructions
 
-## Version 1.0.3 (Nov 8, 2022)
+## Version 1.0.3 release 1 (Nov 8, 2022)
 
 * Accepted in Obsidian theme store
 * Add release notes

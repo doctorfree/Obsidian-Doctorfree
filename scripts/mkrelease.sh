@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION="1.0.3"
-RELEASE=1
+RELEASE=2
 
 usage() {
     printf "\nUsage: mkrelease [-c] [-d] [-p] [-u]"
@@ -34,7 +34,7 @@ while getopts "cdpu" flag; do
 done
 shift $(( OPTIND - 1 ))
 
-ANNO="Obsidian Doctorfree Version ${VERSION} Release ${RELEASE}"
+ANNO="Obsidian Doctorfree Theme, version ${VERSION} release ${RELEASE}"
 
 gh release create v${VERSION}r${RELEASE} ${DRAFT} \
                   --title "${ANNO}" \
